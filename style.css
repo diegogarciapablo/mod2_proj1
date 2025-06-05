@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+h2 {
+    text-align: center;
+}
+
+  /* Productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.producto button {
+    margin-top: 0.5em;
+    padding: 1em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #45a049;
+}
+
+  /* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
